@@ -41,8 +41,18 @@
             <a href="../index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
             <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Flights</a>
             <a href="/pages/itinerary.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Itinerary</a>
+            <a href="/pages/budget.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Budget</a>
         </div>
     </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+        <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+        <span>Warsaw, Poland</span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
     <!-- The stuff -->
     <div class="w3-main" style="margin-left:340px;margin-right:40px">
