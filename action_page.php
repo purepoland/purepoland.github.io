@@ -11,5 +11,6 @@ if($sent)
 {print(<a href="https://www.purepoland.github.io/">Thank you for contacting us! Click here to return to the homepage.</a>)}
 else
 {print "We eoncountered an error sending your message.";}
+?>
 </body>
 </html>
