@@ -400,37 +400,47 @@
             Chicago departs at 4:00 PM, and only stips at Amsterdam Airport Schiphol before going to Warsaw.
         </p>
 
-        <div class="w3-half">
-            <h3>
-                <font color="#adafb2">General Mitchell International Airport (MKE):</font>
-            </h3>
-            <img src="../images/mke.jpg" style="width:auto" onclick="onClick(this)" alt="General Mitchell International Airport (MKE)">
-            <h3>
-                <font color="#adafb2">Detroit Metropolitan Airport (DTW):</font>
-            </h3>
-            <img src="../images/dtw.jpg" style="width:auto" onclick="onClick(this)" alt="Detroit Metropolitan Airport (DTW)">
-            <h3>
-                <font color="#adafb2">Charles de Gaulle Airport (CDG):</font>
-            </h3>
-            <img src="../images/cdg.jpg" style="width:auto" onclick="onClick(this)" alt="Charles de Gaulle Airport (CDG)">
-        </div>
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <h3>
+                    <font color="#adafb2">General Mitchell International Airport (MKE):</font>
+                </h3>
+                <img src="../images/mke.jpg" style="width:auto" onclick="onClick(this)" alt="General Mitchell International Airport (MKE)">
+                <h3>
+                    <font color="#adafb2">Detroit Metropolitan Airport (DTW):</font>
+                </h3>
+                <img src="../images/dtw.jpg" style="width:auto" onclick="onClick(this)" alt="Detroit Metropolitan Airport (DTW)">
+                <h3>
+                    <font color="#adafb2">Charles de Gaulle Airport (CDG):</font>
+                </h3>
+                <img src="../images/cdg.jpg" style="width:auto" onclick="onClick(this)" alt="Charles de Gaulle Airport (CDG)">
+            </div>
 
-        <div class="w3-half">
-            <h3>
-                <font color="#adafb2">O'Hare International Airport (ORD):</font>
-            </h3>
-            <img src="../images/ord.jpg" style="width:auto" onclick="onClick(this)" alt="O'Hare International Airport (ORD)">
-            <h3>
-                <font color="#adafb2">Amsterdam Airport Schiphol (AMS):</font>
-            </h3>
-            <img src="../images/ams.jpg" style="width:auto" onclick="onClick(this)" alt="Amsterdam Airport Schiphol (AMS)">
-            <h3>
-                <font color="#adafb2">Warsaw Chopin Airport (WAW):</font>
-            </h3>
-            <img src="../images/waw.jpg" style="width:auto" onclick="onClick(this)" alt="Warsaw Chopin Airport (WAW)">
-        </div>
+            <div class="w3-half">
+                <h3>
+                    <font color="#adafb2">O'Hare International Airport (ORD):</font>
+                </h3>
+                <img src="../images/ord.jpg" style="width:auto" onclick="onClick(this)" alt="O'Hare International Airport (ORD)">
+                <h3>
+                    <font color="#adafb2">Amsterdam Airport Schiphol (AMS):</font>
+                </h3>
+                <img src="../images/ams.jpg" style="width:auto" onclick="onClick(this)" alt="Amsterdam Airport Schiphol (AMS)">
+                <h3>
+                    <font color="#adafb2">Warsaw Chopin Airport (WAW):</font>
+                </h3>
+                <img src="../images/waw.jpg" style="width:auto" onclick="onClick(this)" alt="Warsaw Chopin Airport (WAW)">
+            </div>
 
-    </div>  
+        </div>
+    </div>
+
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+            <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption"></p>
+            </div>
+        </div>
 
     <script>
         // Script to open and close sidebar
